@@ -34,10 +34,10 @@ int main(int argc, char **argv){
 	//Initilise GLUT library
 	glutInit(&argc,argv);
 
-	//Set initial disllay mode
+	//Set initial display mode
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	
-	//Set initial windpw position & size
+	//Set initial window position & size
 	glutInitWindowPosition(0,0);
 	glutInitWindowSize(640,480);     //Width, Height
 	
@@ -50,7 +50,7 @@ int main(int argc, char **argv){
 	//Call the display function
 	glutDisplayFunc(display_point);
 	
-	//Keep displaying until program exit
+	//Keep displaying until program exits
 	glutMainLoop();
 	
 	return 0;
